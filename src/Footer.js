@@ -5,7 +5,7 @@ import {faUserFriends, faCode, faHeart} from '@fortawesome/free-solid-svg-icons'
 
 const containerStyle = {
     height: '40px',
-    background: 'black',
+    background: '#414141',
     color: 'white',
     width: '100%'
 }
@@ -22,13 +22,13 @@ class Footer extends React.Component {
             <Container style={containerStyle} fluid>
                 <Row>
                     <Col className="text-md-left">
-                        <h6 style={textStyle}>Made with <FontAwesomeIcon icon={faHeart} /> by Eddy</h6>
+                        <a href="https://github.com/edgardSchi" target="_blank"><h6 style={textStyle}>Made with <FontAwesomeIcon icon={faHeart} /> by Eddy</h6></a>
                     </Col>
                     <Col className="text-md-right" md="auto">
-                        <h6 style={textStyle}>Impressum</h6>                                
+                        <a href=""><h6 style={textStyle}>Impressum</h6></a>                                
                     </Col>
                     <Col className="text-md-right" md="auto">
-                        <h6 style={textStyle}>Datenschutz</h6>
+                        <a href=""><h6 style={textStyle}>Datenschutz</h6></a>
                     </Col>
                   </Row>
               </Container>
