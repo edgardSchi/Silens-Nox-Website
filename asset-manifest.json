@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/Silens-Nox-Website/static/css/main.419353c9.chunk.css",
+    "main.js": "/Silens-Nox-Website/static/js/main.96745cfb.chunk.js",
+    "main.js.map": "/Silens-Nox-Website/static/js/main.96745cfb.chunk.js.map",
+    "runtime-main.js": "/Silens-Nox-Website/static/js/runtime-main.e7a9e893.js",
+    "runtime-main.js.map": "/Silens-Nox-Website/static/js/runtime-main.e7a9e893.js.map",
+    "static/css/2.0624914a.chunk.css": "/Silens-Nox-Website/static/css/2.0624914a.chunk.css",
+    "static/js/2.a8674a40.chunk.js": "/Silens-Nox-Website/static/js/2.a8674a40.chunk.js",
+    "static/js/2.a8674a40.chunk.js.map": "/Silens-Nox-Website/static/js/2.a8674a40.chunk.js.map",
+    "index.html": "/Silens-Nox-Website/index.html",
+    "precache-manifest.07db53a15033f2b68ed79328090b2a61.js": "/Silens-Nox-Website/precache-manifest.07db53a15033f2b68ed79328090b2a61.js",
+    "service-worker.js": "/Silens-Nox-Website/service-worker.js",
+    "static/css/2.0624914a.chunk.css.map": "/Silens-Nox-Website/static/css/2.0624914a.chunk.css.map",
+    "static/css/main.419353c9.chunk.css.map": "/Silens-Nox-Website/static/css/main.419353c9.chunk.css.map",
+    "static/media/dayz_wallpaper.jpg": "/Silens-Nox-Website/static/media/dayz_wallpaper.7ac2b741.jpg",
+    "static/media/eddy_image.png": "/Silens-Nox-Website/static/media/eddy_image.716cdcb5.png",
+    "static/media/logo.svg": "/Silens-Nox-Website/static/media/logo.25bf045c.svg",
+    "static/media/niphoria_image.png": "/Silens-Nox-Website/static/media/niphoria_image.a8139809.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e7a9e893.js",
+    "static/css/2.0624914a.chunk.css",
+    "static/js/2.a8674a40.chunk.js",
+    "static/css/main.419353c9.chunk.css",
+    "static/js/main.96745cfb.chunk.js"
+  ]
+}
