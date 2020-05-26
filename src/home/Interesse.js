@@ -19,7 +19,7 @@ class Interesse extends React.Component {
     render() {
         return(
             <Container style={containerStyle}>
-                <h1>Interesse?</h1>
+                <h1 style={{marginBottom: '40px'}}>Interesse?</h1>
                 <Row>
                     <Col>
                         <a href="">
@@ -28,13 +28,13 @@ class Interesse extends React.Component {
                         
                     </Col>
                     <Col>
-                        <a href="">
+                        <a href="https://silens-nox.de/forum">
                             <FontAwesomeIcon icon={faGlobe} style={iconStyle}/>
                             <h2>Forum</h2>
                         </a>
                     </Col>
                     <Col>
-                        <a href="">
+                        <a href="ts3server://ts.silens-nox.de">
                             <FontAwesomeIcon icon={faTeamspeak} style={iconStyle}/>
                         </a>
                     </Col>

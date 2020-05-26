@@ -1,7 +1,8 @@
 import React from 'react';
 import Image from 'react-bootstrap/Image';
-import picture from '../images/dayz_wallpaper.jpg';
+import picture from '../images/wallpaper_2.jpg';
 import {Container, Button, Jumbotron} from 'react-bootstrap';
+import Logo from '../images/logo.png';
 
 
 const style = {
@@ -9,7 +10,7 @@ const style = {
     width: "100%",
     //background: 'black',
     backgroundImage: `url(${picture})`,
-    backgroundPosition: 'center',
+    backgroundPosition: '50% 25%',
     backgroundRepeat: 'no-repeat',
     backgroundSize: 'cover',
 
@@ -36,8 +37,8 @@ class TopPicture extends React.Component {
             <Jumbotron style={style} fluid>
                 <Container>
 
-                    <h1 style={textStyle}>Silens Nox</h1>
-                    <h2 style={{color: '#af0404'}}>Deutsche DayZ Hardcore RP Community</h2>
+                    <Image src={Logo} fluid/>
+                    <h2 style={{color: '#afff'}}>Deutsche DayZ Hardcore RP Community</h2>
                     <>
                     <style>
                         {`
@@ -59,7 +60,7 @@ class TopPicture extends React.Component {
                             }
                         `}
                     </style>
-                    <Button className="sn-button" style={buttonStyle}>Spielen</Button>
+                    <a href={"https://silens-nox.de/forum/thread/6-wie-kann-ich-auf-dem-server-spielen/"}><Button className="sn-button" variant="outline-danger"style={buttonStyle} >Spielen</Button></a>
                     </>
                     
                 </Container>

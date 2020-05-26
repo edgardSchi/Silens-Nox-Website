@@ -19,6 +19,7 @@ class TeamCard extends React.Component {
     render() {
         return(
             <Card className="text-center" onMouseOver={() => this.setState({hovered: true})} onMouseOut={() => this.setState({hovered: false})} style={{backgroundColor: '#252525', borderColor: '#af0404', cursor:'pointer', margin: '20px', transform: `${this.state.hovered ? 'scale(1.1, 1.1)' : 'scale(1, 1)'}`}}>
+                <a href={this.props.link}>
                 <Card.Body>
                     <Image src={this.props.image} roundedCircle fluid style={{width: '100px'}}/>
                     <Card.Title>
@@ -28,6 +29,7 @@ class TeamCard extends React.Component {
                         {this.props.role}
                     </Card.Text>
                 </Card.Body>
+                </a>
             </Card>
         );
     }

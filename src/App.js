@@ -6,6 +6,7 @@ import TopPicture from './home/TopPicture';
 import CardHolder from './home/CardHolder';
 import TeamCardHolder from './home/TeamCardHolder';
 import Interesse from './home/Interesse';
+import ModItemHolder from './home/ModItemHolder';
 
 import Footer from './Footer';
 
@@ -14,6 +15,7 @@ function App() {
     <div className="App">
         <TopPicture />
         <CardHolder />
+        <ModItemHolder />
         <Interesse />
         <TeamCardHolder />
         
